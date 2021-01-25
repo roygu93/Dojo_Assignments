@@ -1,0 +1,58 @@
+<html>
+    <head></head>
+    <body>
+        <form action="process.php" method="post">
+            <h1>My Registration Form</h1>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+            <br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+
+            <label for="passwordConfirm">Password Confirm:</label>
+            <input type="password" id="passwordConfirm" name="passwordConfirm">
+            <br>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br>
+
+            <p>Select your gender:</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+        
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            
+            <label for="decline">Other</label>
+            <input type="radio" id="decline" name="gender" value="decline">
+
+            
+            <p>Say a few words about yourself:</p>
+            <textarea name="description"></textarea>    
+            <br>
+
+            <label for="favLanguage">Favorite Language:</label>
+            <select name="favLanguage" id="favLanguage">
+                <option value="javascript">JavaScript</option>
+                <option value="java">Java</option>
+                <option value="csharp">C#</option>
+            </select>
+            <br>
+        
+            <input type="submit" value="Submit">
+        </form>
+        
+
+    </body>
+</html>

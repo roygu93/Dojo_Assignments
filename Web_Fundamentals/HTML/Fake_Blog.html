@@ -1,0 +1,110 @@
+<html>  
+    <head>
+        <meta charset="UTF-8">
+        <title>My Fake Blog</title>
+        <meta name="description" content="My Fake Blog">
+    </head>
+    <body>
+        <h1>Fake Blog</h1>
+
+        <div>
+            <p>Hello, my name is Roy. This is my fake blog.</p>
+            <a href="https://www.google.com">Google</a>
+        </div>
+
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>column</th>
+                    <th>column</th>
+                    <th>column</th>
+                    <th>column</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>table data</td>
+                    <td>table data</td>
+                    <td>table data</td>
+                    <td>table data</td>
+                </tr>
+                <tr>
+                    <td>table data</td>
+                    <td>table data</td>
+                    <td>table data</td>
+                    <td>table data</td>
+                </tr>
+                <tr>
+                    <td>table data</td>
+                    <td>table data</td>
+                    <td>table data</td>
+                    <td>table data</td>
+                </tr>
+    
+            </tbody>
+        </table>
+
+        <form action="process.php" method="post">
+            <h1>My Registration Form</h1>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+            <br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br>
+            
+
+            <p>Select your gender:</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+        
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            
+            <label for="decline">Other</label>
+            <input type="radio" id="decline" name="gender" value="decline">
+
+            
+            <p>Say a few words about yourself:</p>
+            <textarea name="description"></textarea>    
+            <br>
+
+            <label for="favLanguage">Favorite Language:</label>
+            <select name="favLanguage" id="favLanguage">
+                <option value="javascript">JavaScript</option>
+                <option value="java">Java</option>
+                <option value="csharp">C#</option>
+            </select>
+            <br>
+        
+            <p>Select 3 of your favorite colors:</p>
+            <label for="blue">Blue</label>
+            <input type="checkbox" id="blue" name="color" value="blue">
+            
+            <label for="green">Green</label>
+            <input type="checkbox" id="green" name="color" value="green">
+        
+            <label for="red">Red</label>
+            <input type="checkbox" id="red" name="color" value="red">
+            
+            <label for="black">Black</label>
+            <input type="checkbox" id="black" name="color" value="black">
+        
+            <label for="purple">Purple</label>
+            <input type="checkbox" id="purple" name="color" value="Purple">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
+</html>
